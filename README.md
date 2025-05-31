@@ -35,7 +35,7 @@ If you're like many users who keep dozens of apps pinned to the taskbar, this he
 
 ## ⚙️ Usage
 
-1. Place your `separator.ico` file in the same folder as the script (`taskbarSeparatorGen.py`  
+1. Place your `separator.ico` file in the same folder as the script (`taskbarSeparatorGen.py`)  
    *(or use the provided default — feel free to replace it)*
 
 2. Run the script with the number of separators you want to create:
