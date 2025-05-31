@@ -44,8 +44,8 @@ If you're like many users who keep dozens of apps pinned to the taskbar, this he
 python create_exes.py 5
 ```
 ## ⚙️ Example
-![OrganizedTaskbarExample](https://raw.githubusercontent.com/Unnamed10110/taskbarSeparatorGenerator-unnamed10110/master/example.png)
-![UsageExample](https://github.com/Unnamed10110/taskbarSeparatorGenerator-unnamed10110/blob/master/usage.mp4)
+![OrganizedTaskbarExample]([https://raw.githubusercontent.com/Unnamed10110/taskbarSeparatorGenerator-unnamed10110/master/example.png](https://raw.githubusercontent.com/Unnamed10110/taskbarSeparatorGenerator-unnamed10110/refs/heads/master/example.png))
+![UsageExample]([https://github.com/Unnamed10110/taskbarSeparatorGenerator-unnamed10110/blob/master/usage.mp4](https://github.com/Unnamed10110/taskbarSeparatorGenerator-unnamed10110/raw/refs/heads/master/usage.mp4))
 
 
 📂 Output Structure
