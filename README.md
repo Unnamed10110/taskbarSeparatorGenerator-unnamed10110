@@ -42,12 +42,10 @@ If you're like many users who keep dozens of apps pinned to the taskbar, this he
 
 ```bash
 python create_exes.py 5
-
+```
 ## ⚙️ Example
-![image](https://github.com/user-attachments/assets/27ef16ef-48b8-4034-91ac-b56a2d5b54b3)
-https://github.com/user-attachments/assets/926bd66e-f400-4fb5-99fa-591feb87ece2
-
-
+![Example](https://raw.githubusercontent.com/Unnamed10110/taskbarSeparatorGenerator-unnamed10110/master/example.png)
+![Example](https://github.com/Unnamed10110/taskbarSeparatorGenerator-unnamed10110/blob/master/usage.mp4)
 
 
 📂 Output Structure
