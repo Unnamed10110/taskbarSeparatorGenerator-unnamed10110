@@ -6,7 +6,7 @@ These shortcuts are fully inert: they do nothing when clicked and serve only to 
 
 ---
 
-## ✨ Features
+# ✨ Features
 
 - Generate any number of dummy shortcuts (e.g., `stub_0.lnk`, `stub_1.lnk`, etc.)
 - Shortcuts are unpinnable (Windows won't allow pinning non-functional `.lnk` files).
@@ -15,14 +15,14 @@ These shortcuts are fully inert: they do nothing when clicked and serve only to 
 
 ---
 
-## 📸 Example Use Case
+# 📸 Example Use Case
 
 If you're like many users who keep dozens of apps pinned to the taskbar, this helps:
 
 
 ---
 
-## 🛠 Requirements
+# 🛠 Requirements
 
 - **Python 3.12 or lower**
   > PyInstaller does **not** yet support Python 3.13. Python 3.13 made internal changes that broke PyInstaller bundles apps. There is no stable release of PyInstaller that supports Python 3.13 yet.
@@ -33,7 +33,7 @@ If you're like many users who keep dozens of apps pinned to the taskbar, this he
 
 ---
 
-## ⚙️ Usage
+# ⚙️ Usage
 
 1. Place your `separator.ico` file in the same folder as the script (`taskbarSeparatorGen.py`)  
    *(or use the provided default — feel free to replace it)*
@@ -43,7 +43,9 @@ If you're like many users who keep dozens of apps pinned to the taskbar, this he
 ```bash
 python taskbarSeparatorGen.py 5
 ```
-## ⚙️ Example
+---
+
+# ⚙️ Example
 ![example](https://github.com/user-attachments/assets/9e833ba3-db3d-4874-8399-e5a62cbb8bef)
 
 
@@ -54,7 +56,7 @@ https://github.com/user-attachments/assets/c4a3c3aa-0f1d-4b0a-95e1-b71aee92797f
 ---
 
 
-📂 Output Structure
+# 📂 Output Structure
 ```sql
 result/
 ├── stub_0.exe
@@ -68,28 +70,24 @@ result/
 
 ---
 
-🚨 Windows Defender Warning
+# 🚨 Windows Defender Warning
   This script triggers Windows Defender or other antivirus tools because PyInstaller compiles a binary using a C compiler in the background.
-  
   There is nothing malicious — the generated .exe files do absolutely nothing and simply exit with code 0.
 
 ---
-🎨 Custom Icons
+# 🎨 Custom Icons
   If you want a different icon:
-  
   Replace the separator.ico file in the script directory.
-  
   Keep the filename as separator.ico.
+  
 ---
 
-🧼 Cleanup
+# 🧼 Cleanup
   The script automatically deletes:
-  
   Temporary .py stubs
-  
   PyInstaller build/ and spec/ folders
-  
   So your result/ folder will only contain what matters.
+  
 ---
-📃 License
+# 📃 License
   MIT License — use freely.
